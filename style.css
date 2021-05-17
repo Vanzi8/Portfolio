@@ -1,0 +1,384 @@
+/*SITE 대문*/
+
+body{
+    background-color: #EFE7E3;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+}
+
+ul{
+    margin: 0;
+}
+
+.site-name{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #C2B4AB;
+    font-weight: 700;
+    border: 3px solid #C2B4AB;
+}
+
+.site-name:hover{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: black
+    
+}
+
+.nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.korean-commnet{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.sample{
+    background-color: pink;
+}
+
+.sample:hover{
+    background-color: transparent;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: 0s;
+}
+
+.highlight{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    
+}
+
+.highlight:hover{
+    background-color: pink;
+    transition: 0s;
+}
+
+.type1{
+    background-color: #bef67a;
+    
+}
+
+.type1:hover{
+    background-color: #ef5350;
+    color: black;
+    transition: 0;
+}
+
+type2{
+    background-color: whitesmoke;
+    
+}
+
+.type2:hover{
+    background-color: skyblue;
+    color: black;
+    transition: 0;
+}
+
+type3{
+    background-color: whitesmoke;
+    
+}
+
+.type3:hover{
+    background-color: #0d47a1;
+    color: black;
+    transition: 0;
+}
+
+.english-commnet{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: -0.3px;
+
+}
+
+.recent-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #C2B4AB;
+    text-align: right;
+    margin-top: 110px;
+    margin-bottom: 90px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.contact{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.blog{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 15px;
+    color: black;
+}
+
+.blog:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 15px;
+    transition: 0.s;
+    color: white;
+    background-color: #2DB400;
+}
+
+.instagram{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 15px;
+    color: black;
+}
+
+.instagram:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 15px;
+    color: white;
+    transition: 0.5s;
+    background: linear-gradient(to bottom left, #833ab4, #fd1d1d,#fcb045);
+    border-radius: 6px;
+}
+
+/*footer*/
+
+.footer>p{
+    font-family: 'Noto sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: -0.3px;
+    margin-top: 20px;
+}
+
+.footer-commnet{
+    text-align: center;
+}
+
+a[title="ultimatearm"]:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+a[title="Flaticon"]:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+/*INFO*/
+
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 100px;
+}
+
+#profile-picture{
+    width: 400px;
+    margin-right: 60px;
+}
+
+.introduction>h2{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.introduction>p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#capability{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
+}
+
+/*value*/
+
+.value-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 30px 100px;
+}
+
+.value-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 100px 150px;
+    margin-top: 20px;
+}
+
+.value{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.value-icon{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border: 2px solid #C2B4AB;
+    border-radius: 100px;
+}
+
+.value-intro{
+    margin-left: 30px;
+
+}
+
+.value-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.value-exp{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
+}
+
+/*recemt-works*/
+
+.recent-works{
+    display: flex;
+    flex-direction: column;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+    align-items: center;
+}
+
+.thumbnail{
+    width: 600px;
+}
+
+.article-info{
+    margin: 0px 30px;
+}
+
+.article-name{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.article-name:hover{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: 0.3s;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+
+}
+
+.article-comment{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    color: black; 
+    font-size: 20px;
+}
+
+.more{
+    width: content;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    margin: 0;
+    margin-top: 30px;
+    outline: none;
+    border: 0px;
+    padding: 0px;
+    float: right;
+}
+
+
+#commnet2{
+    text-align: right;
+}
+
+/*work page*/
+
+.construction{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
