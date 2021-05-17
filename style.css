@@ -34,6 +34,7 @@ ul{
     color: black;
     font-weight: 700;
     border: 3px solid black;
+    border-radius: 10px;
 }
 
 .nav-menu{
